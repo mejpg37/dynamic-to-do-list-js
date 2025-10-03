@@ -1,3 +1,5 @@
+// script.js
+
 // 1. Setup Event Listener for Page Load
 document.addEventListener('DOMContentLoaded', function() {
     // 2. Select DOM Elements
@@ -57,9 +59,4 @@ document.addEventListener('DOMContentLoaded', function() {
             addTask();
         }
     });
-
-    // The explicit instruction "Invoke the addTask function on DOMContentLoaded"
-    // is redundant with the event listeners, but if interpreted strictly to mean
-    // run the *logic* after load, the setup above is the correct implementation
-    // as it prepares the functions and listeners.
 });
