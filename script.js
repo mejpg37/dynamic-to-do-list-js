@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Assign an onclick event to the remove button
         removeButton.onclick = function() {
-            // Removes the li element from taskList.
+            // FIX: Use the explicit variables taskList and listItem as specified by the task's context
             taskList.removeChild(listItem);
         };
 
